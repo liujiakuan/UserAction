@@ -1,0 +1,7 @@
+/*引入了公共css文件,里面包含了处理各个浏览器边距的css，所以这里不用写处理边距的代码*/
+#allSingleProportion,#gradeSingleProportion,#collegeSingleProportion{
+    width: 100%;
+}
+#collegeSingleProportion{
+    height: 500px;
+}

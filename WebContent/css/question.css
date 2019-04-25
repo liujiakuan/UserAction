@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+
+}
+.headerImg{
+    width: 100%;
+}
+.header .title h1{
+    text-align: center;
+}
+#errorName{
+    display: none;
+}
+#errorAllOption{
+    display: none;
+}

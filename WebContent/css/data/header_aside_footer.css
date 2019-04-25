@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 50px;
+}
+.asideMargin{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.navbarMarginRight{
+    text-align: center;
+}
+.marginTop{
+    padding: 0;
+}
+.panelPadding{
+    padding: 0;
+}
+.list-group-margin{
+    margin: 0;
+}
+/*头部背景文字颜色设置*/
+.backgroundNav{
+    background-color: #19B698;
+}
+@media only screen and (min-width: 1024px){
+    .navbarMarginRight{
+        margin-right: 5em;
+    }
+    .navbarMarginLeft{
+        margin-left: 4em;
+    }
+    .marginTop{
+        margin-top: 2em;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 1024px){
+    .navbarMarginRight{
+        margin-right: 4em;
+    }
+    .navbarMarginLeft{
+        margin-left: 2em;
+    }
+    .asideMargin{
+        margin-top: 11em;
+    }
+    .marginTop{
+        margin-top: 2em;
+    }
+}
+@media only screen and (max-width: 400px){
+    .navbarMarginRight{
+        margin-right: 1em;
+    }
+    .asideMargin{
+        margin-top: 1em;
+    }
+    .marginTop{
+        margin-top: 1em;
+    }
+    .displayNone{
+        display: none;
+    }
+}

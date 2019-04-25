@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+
+}
+header{
+    margin-top: 3em;
+}
+.prizeHeader{
+
+}
+.prizeCount{
+    margin-top: 6em;
+}
+.getPrize{
+    margin-top: 3em;
+}
+.prizeStrong{
+    color: #F78472;
+    font-size: 2em;
+}
+.getPrizeButton a{
+    color: antiquewhite;
+}

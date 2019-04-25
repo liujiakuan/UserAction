@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+
+}
+.scoreHeaderImg{
+    width: 100%;
+}
+.scoreStrong{
+    color: tomato;
+    font-size: 1.5em;
+}
+.getPrizeButton a{
+    color: antiquewhite;
+}
+@media only screen and (min-width: 1024px){
+    .scoreP{
+        margin-top: 1.5em;
+        font-size: xx-large;
+    }
+    .getPrizeButton{
+        margin-top: 0.5em;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 1024px){
+    .scoreP{
+        margin-top: 3em;
+        font-size: xx-large;
+    }
+    .getPrizeButton{
+        margin-top: 1.5em;
+    }
+}
+@media only screen and (max-width: 400px){
+    .scoreP{
+        margin-top: 4em;
+        font-size: xx-large;
+    }
+    .getPrizeButton{
+        margin-top: 4em;
+    }
+}

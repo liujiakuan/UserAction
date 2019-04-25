@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-height:100%;
+}
+body{
+    background:url('../img/error404.jpg') no-repeat center center;
+    min-height:100%;
+    background-size:cover;
+}
+#body{
+}
+.errorDiv{
+    margin-top: 2em;
+    text-align: center;
+    z-index: 999;
+}
+.errorDiv a{
+    color: antiquewhite;
+}

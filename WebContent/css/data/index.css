@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 50px;
+}
+#body{
+}
+.asideMargin{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.navbarMarginRight{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.floatLeft{
+    float: left;
+}
+.marginTop{
+    padding: 0;
+}
+.panelPadding{
+    padding: 0;
+}
+.list-group-margin{
+    margin: 0;
+}
+.text-color-one{
+    color: #FFFFFF;
+    height: 200px;
+    
+}
+.bg-color-one{
+    background-color: #3D566D;
+}
+.bg-color-one h2{
+	line-height: 120px;
+}
+.proportion{
+    width: 100%;
+}
+#no-border-radius,#no-border-radius-two{
+    border-radius: 0;
+}
+/*得分榜背景颜色设置*/
+.backgroundPanelOne{
+    background-color: #DE5C4F;
+}
+.backgroundPanelTwo{
+    background-color: #7761A8;
+}
+@media only screen and (min-width: 1024px){
+    .navbarMarginRight{
+        margin-right: 5em;
+    }
+    .navbarMarginLeft{
+        margin-left: 4em;
+    }
+    .marginTop{
+        margin-top: 2em;
+    }
+    .proportion{
+        height: 350px;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 1024px){
+    .navbarMarginRight{
+        margin-right: 4em;
+    }
+    .navbarMarginLeft{
+        margin-left: 2em;
+    }
+    .asideMargin{
+        margin-top: 11em;
+    }
+    .marginTop{
+        margin-top: 2em;
+    }
+    .proportion{/*��Ů����ͼ*/
+        height: 280px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .navbarMarginRight{
+        margin-right: 1em;
+    }
+    .asideMargin{
+        margin-top: 1em;
+    }
+    .marginTop{
+        margin-top: 1em;
+    }
+    .displayNone{
+        display: none;
+    }
+    .proportion{
+        height: 220px;
+        width: 92%;
+    }
+}

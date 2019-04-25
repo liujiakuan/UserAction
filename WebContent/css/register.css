@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.scoreHeaderImg{
+    width: 100%;
+}
+#errorRegister{
+	display: none;
+}
+#checkCode{
+	margin-left: -1em;
+}

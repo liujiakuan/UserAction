@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+
+}
+.prizeListHeaderImg{
+    width: 100%;
+}
+.tableCaption{
+    font-size: xx-large;
+}
+.pageCount{
+    margin-top: -2em;
+}
+.choosePageCount{
+}
+.trBgColor{
+    background-color: #F5EDD6;
+}
+@media only screen and (min-width: 1024px){
+    .prizeListHeaderImg{
+        height: 250px;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 1024px){
+}
+@media only screen and (max-width: 400px){
+}
